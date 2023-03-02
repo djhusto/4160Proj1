@@ -4,8 +4,11 @@ CPSC 4160
 Dr. Adkins
 
 Program Versions
+
 OS Version : macOS Mojave 10.14.6
+
 Python Version : Python 3.9.12
+
 Pygame Version : pygame 2.1.2
 
 Motivation: I chose pong because it was the first game we spoke about in the class.
