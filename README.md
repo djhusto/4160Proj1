@@ -13,12 +13,14 @@ Pygame Version : pygame 2.1.2
 
 Motivation: I chose pong because it was the first game we spoke about in the class.
 It did not seem too confusing and pretty straightforward on how to approach, code, and separate into their appropriate MVC. This seemed to have been an overlook in 
-terms of MVC and how I implemented the system. 
+terms of MVC and how I implemented the system. I also enjoyed the ability to look back at a properly made game and reference it for the game I am meant to create.
 
 Reasoning: I chose to program it all into one file because I prioritized performance over structure. I wanted to create a
 working system first then in future iterations of the game to maybe separate the files. I also chose to only have the ball move
 after a key was pressed. I am really proud of that particular aspect as I thought it was really cool to have that interaction
 with the user.
+
+Image: As everything is in one file, there is no real class and function connection that I thought I could create. 
 
 Known Bugs/Glitches:
 1. After a point is scored. The ball continues on the same trajectory once it restarts.
