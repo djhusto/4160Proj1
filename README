@@ -1,0 +1,33 @@
+David Huston-Hakey
+CPSC 4160
+Dr. Adkins
+
+Program Versions
+OS Version : macOS Mojave 10.14.6
+Python Version : Python 3.9.12
+Pygame Version : pygame 2.1.2
+
+Motivation: I chose pong because it was the first game we spoke about in the class.
+It did not seem too confusing and pretty straightforward on how to approach, code, and separate into their appropriate MVC.
+
+Reasoning: I chose to program it all into one file because I prioritized performance over structure. I wanted to create a
+working system first then in future iterations of the game to maybe separate the files. I also chose to only have the ball move
+after a key was pressed. I am really proud of that particular aspect as I thought it was really cool to have that interaction
+with the user.
+
+Known Bugs/Glitches:
+After a point is scored. The ball continues on the same trajectory once it restarts.
+    Fix: On the reset function, speed in both directions gets reset to default
+          This should hopefully help with 
+
+Future Improvement:
+1. Separate the main.py file into separate ball, paddle, view, model, and controller classes. This helps with generalization
+and being able to reuse file for future projects.
+2. F
+
+
+How to Play: Standard Pong Game
+W/S Keys move Left Paddle
+Up/Down Arrows move Right Paddle
+
+Generalization:
