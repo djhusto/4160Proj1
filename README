@@ -8,7 +8,8 @@ Python Version : Python 3.9.12
 Pygame Version : pygame 2.1.2
 
 Motivation: I chose pong because it was the first game we spoke about in the class.
-It did not seem too confusing and pretty straightforward on how to approach, code, and separate into their appropriate MVC.
+It did not seem too confusing and pretty straightforward on how to approach, code, and separate into their appropriate MVC. This seemed to have been an overlook in 
+terms of MVC. 
 
 Reasoning: I chose to program it all into one file because I prioritized performance over structure. I wanted to create a
 working system first then in future iterations of the game to maybe separate the files. I also chose to only have the ball move
@@ -16,14 +17,16 @@ after a key was pressed. I am really proud of that particular aspect as I though
 with the user.
 
 Known Bugs/Glitches:
-After a point is scored. The ball continues on the same trajectory once it restarts.
+1. After a point is scored. The ball continues on the same trajectory once it restarts.
     Fix: On the reset function, speed in both directions gets reset to default
-          This should hopefully help with 
+          This should hopefully help with the initial start of the game and the restart of the game after a player has scored
+2. Ball gets stuck behind the paddle without points being awarded
+    Fix: Im not sure about a fix for this. It is a very sparse bug but it sometimes occurs.
 
 Future Improvement:
 1. Separate the main.py file into separate ball, paddle, view, model, and controller classes. This helps with generalization
 and being able to reuse file for future projects.
-2. F
+2. Clock. There is some lag and delay when the ball moves. I think a clock will alleviate some of these issues. Game Time is important. 
 
 
 How to Play: Standard Pong Game
